@@ -1,0 +1,10 @@
+Your goal is to write a prompt for github copilot in md. 
+I want to build a web app that has a split screen. On the right side I have a chatbot and on the left I have a pdf document viewer. When the chatbot replies and uses a reference from the pdf it returns a clickable reference to the relevant chunk of the pdf. When I click on the reference the relevant doc is displayed on the right side in the correct page and the chunk is highlighted. 
+Tech stack: 
+2 dockers one for backend and one for frontend.
+Use the local ollama installed on the host (no new docker for it).
+Backend is python and langchian/langgraph
+Frontend is js react typescript.
+Use the embeddinggemma-2:740m-mxfp8 for embeddings and use gemma4:e2b-it-qat for the chatbot.
+Use markitdown library from microsoft to convert the pdf to text.
+Ask me any qualification questions you deem necessary.
