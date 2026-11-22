@@ -1,2 +1,0 @@
-ollama pull gemma4:e2b-it-qat
-ollama pull embeddinggemma-2:740m
